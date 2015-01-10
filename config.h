@@ -806,11 +806,13 @@
 #define AVCONV_DATADIR "c:/ffmpeg1010/"
 
 #define snprintf _snprintf
-#define lrint(f) (f>=0?(int32_t)(f+(double)0.5):(int32_t)(f-(double)0.4))
-#define lrintf(f) (f>=0?(int32_t)(f+(float)0.5):(int32_t)(f-(float)0.4))
-#define llrintf(f) (f>=0?(int64_t)(f+(double)0.5):(int64_t)(f-(double)0.4))
-#define llrint(f) (f>=0?(int64_t)(f+(float)0.5):(int64_t)(f-(float)0.4))
+//#define lrint(f) (f>=0?(int32_t)(f+(double)0.5):(int32_t)(f-(double)0.4))
+//#define lrintf(f) (f>=0?(int32_t)(f+(float)0.5):(int32_t)(f-(float)0.4))
+//#define llrintf(f) (f>=0?(int64_t)(f+(double)0.5):(int64_t)(f-(double)0.4))
+//#define llrint(f) (f>=0?(int64_t)(f+(double)0.5):(int64_t)(f-(double)0.4))
 
-#define log2(x) (log(x) * 1.44269504088896340736)  
+//#define llrintf(f) (f>=0?(int64_t)(f+(float)0.5):(int64_t)(f-(float)0.4))
+
+//#define log2(x) (log(x) * 1.44269504088896340736)  
 
  #endif /* FFMPEG_CONFIG_H */

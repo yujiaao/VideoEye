@@ -4,3 +4,6 @@ Release/
 ipch/
 #¹ıÂË
 *.sdf
+x64/
+bin/
+.vs/
